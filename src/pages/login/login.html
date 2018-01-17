@@ -1,0 +1,39 @@
+<ion-content padding class="container">
+    
+  <div id="appImage" class="logo">
+      
+  <ion-item class="appname">Maternidad</ion-item>
+      
+  </div>
+
+  <div id="userNpassword">
+  
+      <ion-list>
+
+    <ion-item>
+      <ion-label floating class="email">Email</ion-label>
+      <ion-input type="text" #email></ion-input>
+   </ion-item>
+
+   <ion-item>
+       <ion-label floating class="password">Password</ion-label>
+      <ion-input type="password" #password></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label color="primary">Dependencia</ion-label>
+
+        <ion-select [(ngModel)]="dependencia">
+          <ion-option *ngFor="let depen of dependenciaList" [value]="depen.value">{{depen.name}}</ion-option>
+        </ion-select>
+
+    </ion-item>
+
+</ion-list>
+      
+  </div>
+  
+      <button ion-button full (click)="signInUser()" class="signButton">Sign In</button>
+      <button ion-button full (click)="register()" class="createButton">Register</button>
+
+</ion-content>
