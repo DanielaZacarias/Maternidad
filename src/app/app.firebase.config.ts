@@ -1,14 +1,8 @@
 export const FIREBASE_CONFIG = {
-
-//here goes your api key
-/*
-        apiKey: "AIzaxxxxxxxxxxxxxxxxxxxxxxx",
-        authDomain: "xxxxxxxxxxxxx.firebaseapp.com",
-        databaseURL: "xxxxxxxxxxxxxxxx.firebaseio.com",
-        projectId: "xxxxxxxxxxxxxxxx",
-        storageBucket: "",
-        messagingSenderId: "xxxxxxxxxxxxxxx"
-
-*/
-        
+        apiKey: "AIzaSyAm13Uc-ictZ_UF-bz1agB7z02-8Pn6ois",
+        authDomain: "certificaciones-liza.firebaseapp.com",
+        databaseURL: "https://certificaciones-liza.firebaseio.com",
+        projectId: "certificaciones-liza",
+        storageBucket: "certificaciones-liza.appspot.com",
+        messagingSenderId: "1028213182446" 
 }
